@@ -28,5 +28,38 @@
         </ul>
       </nav>
     </header>
+    <div class="all">
+      <aside>
+        <div class="filtro">
+          <h4>Buscar por</h4>
+          <h5>Tipo de herramienta:</h5>
+          <select id="filtro-herramientas">
+            <option value="">Todas las herramientas</option>
+            <option value="herramientas electricas">
+              Herramientas eléctricas
+            </option>
+            <option value="herramientas manuales">Herramientas manuales</option>
+          </select>
+
+          <h5>Precio:</h5>
+          <select id="filtro-precio">
+            <option value="0">Todos los precios</option>
+            <option value="1500">Hasta $1.500</option>
+            <option value="3000">Hasta $3.000</option>
+            <option value="5000">Hasta $5.000</option>
+            <option value="10000">Hasta $10.000</option>
+            <option value="20000">Hasta $20.000</option>
+            <option value="50000">Hasta $50.000</option>
+          </select>
+        </div>
+      </aside>
+
+      <main>
+        <section id="herramientas">
+          <h2>Herramientas disponibles</h2>
+          <div id="herramientas-contenedor"></div>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
