@@ -1,0 +1,11 @@
+{
+    "herramientas-manuales": [
+        {
+            "nombre": "herramienta1",
+            "modelo": "Modelo de herramienta1",
+            "img": "../img",
+            "precio": 1000,
+            "link": "google.cl"
+        }
+    ]
+}
