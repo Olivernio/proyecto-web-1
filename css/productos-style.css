@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background: url('../img/background.jpg');
+}
+
+.header {
+    /* background-color: #0b151a; */
+    top: 0;
+    position: fixed;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+    padding: 5px 10%;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img {
+    height: 60px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.div_header {
+    display: inline-block;
+    padding: 0;
+}
+
+.header .nav-links {
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    transition: all 0.5s;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a {
+    font-size:  700;
+    color: #eceff1;
+    text-decoration: none;
+}
+
+.header .nav-links a:hover {
+    color: #ffbc0e;
+}
+
+.header .btn button {
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background-color: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover {
+    
+    background-color: #1b3039;
+    color: #eceff1;
+    transform: scale(1.1);
+}
+
+/* .all {
+    width: 50%;
+    margin-left: 275px;
+    padding: 50px;
+    align-items: center;
+} */
+
+main {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+aside {
+    color: #eceff1;
+    position: fixed;
+    padding-left: auto;
+    float: left;
+    width: 20%;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 5%;
+    box-sizing: border-box;
+    border: solid 1px gray;
+    box-shadow: 2px 2px 5px;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    margin-top: 10%;
+    margin-left: 20%;
+    background-color: #404346;
+    color: #eceff1;
+    width: 100%;
+    display: inline-flexbox;
+    transform: translateY(-20);
+    transition: 0.4s;
+}
+
+section h2 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #1b3039;
+    color: white;
+    text-align: justify;
+    padding: 10px;
+    margin-top: 47%;
+  }
+
+  
+  #contenedor_registros {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-gap: 50px;
+}
+
+
+.registro {
+    width: 90%;
+    background-color: gray;
+    transition: .3s;
+}
+
+.registro:hover {
+    transform: scale(1.10000001);
+}
+
+.registro a>img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.registro a {
+  text-decoration: none;
+  color: orange;
+  height: 100px;
+}
