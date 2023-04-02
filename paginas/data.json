@@ -4,7 +4,7 @@
             "nombre": "MARTILLO",
             "descripcion": "MARTILLO FIBRA D/VIDRIO 20 Oz",
             "fabricante": "BAHCO",
-            "img": "../img/bahco/bahco-martillo.jpeg",
+            "img": "../img/bahco/bahco-martillo.png",
             "precio": 8870,
             "link": "../paginas/bahco/bahco-martillo.html"
         },
@@ -12,17 +12,17 @@
             "nombre": "DESTORNILLADOR",
             "descripcion": "Destornillador punta plana 6,5x75 mango bi-componente",
             "fabricante": "BAHCO",
-            "img": "../img/bahco/bahco-destornillador.jpeg",
+            "img": "../img/bahco/bahco-destornillador.png",
             "precio": 2990,
-            "link": "google.cl"
+            "link": "../paginas/bahco/bahco-destornillador.html"
         },
         {
             "nombre": "Alicate",
             "descripcion": "Alicate Universal Marca Bahco De Gran Potencia mas Estuche de suela",
             "fabricante": "BAHCO",
-            "img": "../img/bahco/bahco-alicate.jpeg",
+            "img": "../img/bahco/bahco-alicate.png",
             "precio": 24500,
-            "link": "google.cl"
+            "link": "../paginas/bahco/bahco-alicate.html"
         },
 
 
@@ -33,25 +33,25 @@
             "nombre": "Destornillador",
             "descripcion": "Destornillador Phillips #2 100 mm acero",
             "fabricante": "REDLINE",
-            "img": "../img/redline/redline-destornillador.jpeg",
+            "img": "../img/redline/redline-destornillador.png",
             "precio": 8490,
-            "link": "google.cl"
+            "link": "../paginas/redline/redline-destornillador.html"
         },
         {
             "nombre": "Martillo",
             "descripcion": "Martillo carpintero 16 Oz acero",
             "fabricante": "REDLINE",
-            "img": "../img/redline/redline-martillo.jpeg",
+            "img": "../img/redline/redline-martillo.png",
             "precio": 8790,
-            "link": "google.cl"
+            "link": "../paginas/redline/redline-martillo.html"
         },
         {
             "nombre": "ALICATE",
             "descripcion": "Alicate universal 7 1/2'' acero",
             "fabricante": "REDLINE",
-            "img": "../img/redline/redline-alicate.jpeg",
+            "img": "../img/redline/redline-alicate.png",
             "precio": 11847,
-            "link": "google.cl"
+            "link": "../paginas/redline/redline-alicate.html"
         },
 
 
@@ -63,25 +63,25 @@
             "nombre": "DESTORNILLADOR",
             "descripcion": "Destornillador Phillips #2x203 mm acero",
             "fabricante": "STANLEY",
-            "img": "../img/stanley/stanley-destornillador.jpg",
+            "img": "../img/stanley/stanley-destornillador.png",
             "precio": 6790,
-            "link": "google.cl"
+            "link": "../paginas/stanley/stanley-destornillador.html"
         },
         {
             "nombre": "PELACABLE",
             "descripcion": "Pelacable 3 en 1",
             "fabricante": "STANLEY",
-            "img": "../img/stanley/stanley-pelacable.jpeg",
+            "img": "../img/stanley/stanley-pelacable.png",
             "precio": 23790,
-            "link": "google.cl"
+            "link": "../paginas/stanley/stanley-pelacable.html"
         },
         {
             "nombre": "ALICATE",
             "descripcion": "Juego de 3 alicates",
             "fabricante": "STANLEY",
-            "img": "../img/stanley/stanley-alicate.jpg",
+            "img": "../img/stanley/stanley-alicate.png",
             "precio": 49990,
-            "link": "google.cl"
+            "link": "../paginas/stanley/stanley-alicate.html"
         }
     ]
 }

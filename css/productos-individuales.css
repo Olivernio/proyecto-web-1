@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+}
+
+body {
+    background: url('../../img/background.png');
+}
+
+#container .text-center{
+    border-radius: 50px;
+}
+
+.col1-nashe, .col2-nashe {
+    background-color: aquamarine;
+}
+
+#container .text-center .col3-nashe {
+    background-color: #fff;
+}
+
+#container .text-center{
+    border-radius: 30%;
+}
+
+footer {
+    margin-top: 5%;
+}

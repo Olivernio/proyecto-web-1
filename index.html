@@ -17,6 +17,11 @@
       crossorigin="anonymous"
     />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Jquery Validate  vía CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/additional-methods.min.js"></script>
+
     <link rel="stylesheet" href="/css/style.css" />
     <title>Ferrebodega - Inicio</title>
   </head>
@@ -27,7 +32,9 @@
       class="navbar navbar-expand-lg navbar-light bg-light p-3 d-flex fixed-top"
     >
       <div class="container-fluid">
-        <a class="nav-link disabled">Disabled</a>
+        <a href="index.html" class="nav-link"
+          ><img src="img/icon.png" alt="Ferrebodera" width="60px"
+        /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -42,12 +49,12 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#equipo"
+              <a class="nav-link active" aria-current="page" href="#intro"
                 >Sobre nosotros</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#contenedor-formulario">Contáctanos</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -237,45 +244,52 @@
           <h2>Contacto</h2>
           <p class="fs-5">Encontrarás todo lo que necesites para tu proyecto</p>
         </div>
-        <form id="formulario" action="">
-          <div class="mb-3">
+        <form id="contact-form" action="">
+          <div class="mb-3 form-group">
             <input
               type="email"
+              name="email"
               id="email"
-              class="form-control"
+              class="form-control required"
               placeholder="nombre@ejemplo.com"
-              required
             />
           </div>
-          <div class="mb-3">
+          <div class="mb-3 form-group">
             <input
               type="text"
+              name="nombre"
               id="nombre"
-              class="form-control"
+              class="form-control required"
               placeholder="Diego Silva"
               required
             />
           </div>
-          <div class="mb-3">
+          <div class="mb-3 form-group">
             <input
               type="tel"
+              name="tel"
               id="tel"
-              class="form-control"
+              class="form-control required"
               placeholder="1-2345-6789"
               required
             />
           </div>
-          <div class="mb-3">
+          <div class="mb-3 form-group">
             <textarea
               id="mensaje"
-              class="form-control"
-              rows="3"
+              name="mensaje"
+              class="form-control required"
+              rows="7"
               placeholder="Escribe tu mensaje"
               required
             ></textarea>
           </div>
-          <div class="mb-3">
-            <button type="button" class="btn btn-primary w-100 fs-5">
+          <div class="mb-3 form-group">
+            <button
+              id="submit-form"
+              type="button"
+              class="btn btn-primary w-100 fs-5"
+            >
               Enviar mensaje
             </button>
           </div>
@@ -325,6 +339,7 @@
       integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
       crossorigin="anonymous"
     ></script>
+    <script src="js/index/script.js"></script>
     <script src="/js/index/form-validacion.js"></script>
     <script src="/js/index/messages_es.js"></script>
   </body>

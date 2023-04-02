@@ -33,6 +33,8 @@ function mostrarHerramientas() {
             // Crear una imagen para la herramienta
             var img_enlace = document.createElement("a");
             img_enlace.setAttribute("href", herramienta.link);
+            img_enlace.setAttribute("width", 300);
+            img_enlace.classList.add("--bs-warning")
             const herramientaImg = document.createElement("img");
             herramientaImg.src = herramienta.img;
             herramientaImg.alt = herramienta.modelo;
