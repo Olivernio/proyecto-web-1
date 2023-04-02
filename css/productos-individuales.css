@@ -31,3 +31,17 @@ body {
 footer {
     margin-top: 5%;
 }
+
+#marca {
+    color: coral;
+    inline-size: auto;
+    text-decoration: none;
+}
+
+#submit {
+    transition: .3s;
+}
+
+#submit:hover {
+    transform: scale(1.1);
+}
